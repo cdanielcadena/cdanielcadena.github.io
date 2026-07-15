@@ -117,7 +117,89 @@ _W.setup_model_rpc({"rpc_namespace":"_W.CustomerAccounts.RPC","model_namespace":
 </script>
 		
 		<script type="text/javascript">(function(d,s,id){var z=d.createElement(s);z.type="text/javascript";z.id=id;z.async=true;z.src="//static.zotabox.com/6/9/6972ea4fe8e76a20caa3b853ee786fd5/widgets.js";var sz=d.getElementsByTagName(s)[0];sz.parentNode.insertBefore(z,sz)}(document,"script","zb-embed-code"));</script>
-	</head>
+	
+<style>
+.people-section {
+  padding: 20px 0 35px;
+}
+.people-section-title {
+  text-align: center;
+  font-size: 2.2rem;
+  font-weight: 400;
+  margin: 10px 0 35px;
+}
+.people-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 42px 34px;
+  align-items: start;
+}
+.people-grid.undergraduate-grid {
+  grid-template-columns: minmax(280px, 520px);
+  justify-content: center;
+}
+.person-card {
+  text-align: center;
+  min-width: 0;
+}
+.person-photo {
+  width: 220px;
+  height: 220px;
+  max-width: 80vw;
+  max-height: 80vw;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto 20px;
+}
+.person-name {
+  font-size: 1.35rem;
+  line-height: 1.25;
+  margin: 0 0 4px;
+}
+.person-role {
+  font-size: 1rem;
+  margin: 0 0 3px;
+}
+.person-contact {
+  font-size: 0.95rem;
+  margin: 0 0 18px;
+  overflow-wrap: anywhere;
+}
+.person-text {
+  text-align: left;
+  margin: 0;
+}
+.people-divider {
+  margin: 48px 0;
+}
+@media screen and (max-width: 900px) {
+  .people-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+@media screen and (max-width: 620px) {
+  .people-grid,
+  .people-grid.undergraduate-grid {
+    grid-template-columns: 1fr;
+    gap: 46px;
+  }
+  .person-card {
+    max-width: 520px;
+    margin: 0 auto;
+  }
+  .person-photo {
+    width: 190px;
+    height: 190px;
+  }
+  .person-text {
+    text-align: left;
+  }
+}
+</style>
+
+</head>
 	<body class="header-page  wsite-page-team  wsite-theme-light"><div class="wrapper">
     <div class="cento-header">
       <div class="nav-wrap">
@@ -203,7 +285,7 @@ _W.setup_model_rpc({"rpc_namespace":"_W.CustomerAccounts.RPC","model_namespace":
           <div class="container">
             <div class="banner">
 				<div class="wsite-section-elements">
-					<h2 class="wsite-content-title" style="text-align:center;">Team</h2>
+					<h2 class="wsite-content-title" style="text-align:center;">People</h2>
 				</div>
 			</div>
           </div>
@@ -224,68 +306,68 @@ _W.setup_model_rpc({"rpc_namespace":"_W.CustomerAccounts.RPC","model_namespace":
 		<div class="wsite-section-content">
           <div class="container">
 			<div class="wsite-section-elements">
-				<div class="paragraph" style="text-align:center;"><font size="6">Masters Students</font></div>
+				
+<section class="people-section" aria-labelledby="masters-heading">
+  <h2 id="masters-heading" class="people-section-title">Masters Students</h2>
+  <div class="people-grid">
 
-<div class="wsite-spacer" style="height:50px;"></div>
+    <article class="person-card">
+      <img class="person-photo"
+           src="uploads/8/3/3/2/83324532/published/foto1.png%3F1769972997"
+           alt="Sebastián Martínez">
+      <h3 class="person-name">Sebasti&aacute;n Mart&iacute;nez</h3>
+      <p class="person-role">Masters Student</p>
+      <p class="person-contact">js.martinez1234[at]uniandes.edu.co</p>
+      <p class="person-text">My research interests center on evolutionary ecology and species delimitation within an integrative taxonomy framework, supported by ecophysiological approaches, with a particular emphasis on the thermal ecology of Neotropical organisms. I am interested in understanding how genetic patterns and physiological traits shape intraspecific variation, and how these traits influence species&rsquo; capacity to persist and adapt across environmental gradients. To address these questions, I employ an integrative computational biology approach that combines biostatistics, genomic data analyses, and Geographic Information Systems (GIS).</p>
+    </article>
 
-<div><div class="wsite-multicol"><div class="wsite-multicol-table-wrap" style="margin:0 -15px;">
-	<table class="wsite-multicol-table">
-		<tbody class="wsite-multicol-tbody">
-			<tr class="wsite-multicol-tr">
-				<td class="wsite-multicol-col" style="width:49.142280524723%; padding:0 15px;">
-					
-						
+    <article class="person-card">
+      <img class="person-photo"
+           src="uploads/8/3/3/2/83324532/published/36.jpeg%3F1724193899"
+           alt="María Elisa Mendiwelso">
+      <h3 class="person-name">Mar&iacute;a Elisa Mendiwelso</h3>
+      <p class="person-role">Masters Student</p>
+      <p class="person-contact">me.mendiwelso[at]uniandes.edu.co</p>
+      <p class="person-text">My research lies at the intersection of natural history, ecology, evolutionary biology, and computational biology, with a particular focus on Neotropical birds. I am especially interested in understanding how ecological traits, life-history strategies, and environmental conditions influence contaminant exposure and accumulation, and how these processes have changed over time. I also use quantitative, genetic, and genomic approaches, including genome assembly and demographic inference, to investigate the evolutionary history, adaptation, and diversification of species.</p>
+    </article>
 
-<div><div class="wsite-image wsite-image-border-none " style="padding-top:10px;padding-bottom:10px;margin-left:0px;margin-right:0px;text-align:right">
-<a>
-<img src="uploads/8/3/3/2/83324532/published/foto1.png%3F1769972997" alt="Picture" style="width:auto;max-width:100%" />
-</a>
-<div style="display:block;font-size:90%"></div>
-</div></div>
+    <article class="person-card">
+      <img class="person-photo"
+           src="uploads/8/3/3/2/83324532/people/juan-daniel-rodriguez.jpg"
+           alt="Juan Daniel Rodríguez">
+      <h3 class="person-name">Juan Daniel Rodr&iacute;guez</h3>
+      <p class="person-role">Masters Student</p>
+      <p class="person-contact">j.rodriguez94@uniandes.edu.co</p>
+      <p class="person-text">My research focuses on the evolutionary processes that generate and maintain biological diversity. I am particularly interested in how geological history and environmental pressures interact to drive adaptation and the evolution of ecological and behavioral traits in tropical organisms. By integrating genomics, phylogenomics, bioinformatics, and ecology, I aim to identify the mechanisms underlying adaptation, trait evolution, and diversification, and to better understand the evolutionary history of tropical biodiversity.</p>
+    </article>
 
-<div class="paragraph" style="text-align:center;"><font size="4">Sebasti&aacute;n Mart&iacute;nez</font><br /><font>Masters Student<br />js.martinez1234[at]uniandes.edu.co</font></div>
+  </div>
+</section>
 
-<div><div class="wsite-image wsite-image-border-none " style="padding-top:10px;padding-bottom:10px;margin-left:0;margin-right:0;text-align:center">
-<a>
-<img src="uploads/8/3/3/2/83324532/published/36.jpeg%3F1724193899" alt="Picture" style="width:333;max-width:100%" />
-</a>
-<div style="display:block;font-size:90%"></div>
-</div></div>
+<div class="people-divider">
+  <hr class="styled-hr" style="width:100%;">
+</div>
 
-<div class="paragraph" style="text-align:center;"><font size="4">Mar&iacute;a Elisa Mendiwelso</font><br />Masters Student<br />me.mendiwelso[at]uniandes.edu.co</div>
+<section class="people-section" aria-labelledby="undergraduate-heading">
+  <h2 id="undergraduate-heading" class="people-section-title">Undergraduate Students</h2>
+  <div class="people-grid undergraduate-grid">
 
+    <article class="person-card">
+      <img class="person-photo"
+           src="uploads/8/3/3/2/83324532/people/catalina-montoya.jpg"
+           alt="Catalina Montoya">
+      <h3 class="person-name">Catalina Montoya</h3>
+      <p class="person-role">Undergraduate Student</p>
+      <p class="person-contact">c.montoyab@uniandes.edu.co</p>
+      <p class="person-text">My research focuses on the genomic basis of phenotypic evolution. I am particularly interested in understanding the genetic changes associated with the loss of flight in steamer ducks (<em>Tachyeres</em>) from southern South America using comparative genomics. I also contribute to an interdisciplinary project that brings together scientists, local communities, and other stakeholders to advance the development and implementation of solutions to the challenges posed by invasive hippopotamus populations in Colombia.</p>
+    </article>
 
-					
-				</td>				<td class="wsite-multicol-col" style="width:50.857719475277%; padding:0 15px;">
-					
-						
+  </div>
+</section>
 
-<div class="paragraph" style="text-align:justify;"><br /><br />&#8203;<br /><br /><br /><br />My research interests center on evolutionary ecology and species delimitation within an integrative taxonomy framework, supported by ecophysiological approaches, with a particular emphasis on the thermal ecology of Neotropical organisms. I am interested in understanding how genetic patterns and physiological traits shape intraspecific variation, and how these traits influence species&rsquo; capacity to persist and adapt across environmental gradients. To address these questions, I employ an integrative computational biology approach that combines biostatistics, genomic data analyses, and Geographic Information Systems (GIS)</div>
-
-<div class="wsite-spacer" style="height:135px;"></div>
-
-<div class="paragraph" style="text-align:justify;"><br /><br />&#8203;<br /><br /><span style="color:rgb(29, 28, 29)">My research interests are centered on the natural history, ecology, and evolutionary diversification of the life histories of birds. I have developed a particular interest in understanding aspects of avian form and coloration, with a focus on reproductive traits, such as the color and structure of bird eggshells. My research is driven by a fascination with the intricate trade-offs that shape the variation in eggshell color and structure, as well as the architectural diversity of bird nests. In the future, I want to continue&nbsp; research on avian reproductive biology, including molecular approaches.<br />&#8203;</span><br /><span style="color:rgb(29, 28, 29)">&#8203;</span></div>
-
-<div class="wsite-spacer" style="height:50px;"></div>
-
-
-					
-				</td>			</tr>
-		</tbody>
-	</table>
-</div></div></div>
-
-<div><div style="height: 20px; overflow: hidden; width: 100%;"></div>
-<hr class="styled-hr" style="width:100%;"></hr>
-<div style="height: 20px; overflow: hidden; width: 100%;"></div></div>
-
-<div class="paragraph" style="text-align:center;"><span><font size="6">Undergraduate Students</font></span></div>
-
-<div class="paragraph">Catalina Montoya - working on hippos, people and biodiversity in the Magdalena Valley</div>
-
-<div><div style="height: 20px; overflow: hidden; width: 100%;"></div>
-<hr class="styled-hr" style="width:100%;"></hr>
-<div style="height: 20px; overflow: hidden; width: 100%;"></div></div>
+<div class="people-divider">
+  <hr class="styled-hr" style="width:100%;">
+</div>
 
 <div class="paragraph" style="text-align:center;"><font size="6">Lab Alumni</font></div>
 
